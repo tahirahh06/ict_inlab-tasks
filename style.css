@@ -1,0 +1,102 @@
+/* =================================
+   TASK 1: Three Ways to Add CSS
+   ================================= */
+
+/* External CSS */
+p {
+    color: blue;
+}
+
+
+/* =================================
+   TASK 2: ID and Class
+   ================================= */
+
+/* ID Selector */
+#title {
+    color: green;
+    font-size: 28px;
+}
+
+/* Class Selector */
+.card {
+    border: 2px solid black;
+    padding: 20px;
+    width: 300px;
+}
+
+
+/* =================================
+   TASK 3: Background, Font and Image
+   ================================= */
+
+/* Hero Banner */
+.hero {
+    background-image: url("images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+
+/* Round Profile Picture */
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Paragraph Font */
+p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+
+/* =================================
+   TASK 4: Position and Layout
+   ================================= */
+
+/* Relative Positioning */
+.box {
+    position: relative;
+    width: 300px;
+    padding: 30px;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* Absolute Positioning */
+.badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+}
+
+/* Flex Layout */
+.flex-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+/* Common Box Styling */
+.item {
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Grid Layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
